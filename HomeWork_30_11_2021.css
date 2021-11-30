@@ -1,18 +1,18 @@
-html, body /*Создание трех последовательных экранов*/
-{
+html, body /*Г‘Г®Г§Г¤Г Г­ГЁГҐ ГІГ°ГҐГµ ГЇГ®Г±Г«ГҐГ¤Г®ГўГ ГІГҐГ«ГјГ­Г»Гµ ГЅГЄГ°Г Г­Г®Гў*/
+{ 
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-.Screens /*Общие свойства экранов*/
+.Screens /*ГЋГЎГ№ГЁГҐ Г±ГўГ®Г©Г±ГІГўГ  ГЅГЄГ°Г Г­Г®Гў*/
 {
     height: 100%;
 }
-.Screens:nth-of-type(1) /*Первый экран с меню и титульной картинкой*/
+.Screens:nth-of-type(1) /*ГЏГҐГ°ГўГ»Г© ГЅГЄГ°Г Г­ Г± Г¬ГҐГ­Гѕ ГЁ ГІГЁГІГіГ«ГјГ­Г®Г© ГЄГ Г°ГІГЁГ­ГЄГ®Г©*/
 {
     display: flex;
-    /*background-color: brown;*/ /*отладочная моноколорная заливка*/
+    /*background-color: brown;*/ /*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г¬Г®Г­Г®ГЄГ®Г«Г®Г°Г­Г Гї Г§Г Г«ГЁГўГЄГ */
     background-image: url(Images/Screen_1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -20,8 +20,8 @@ html, body /*Создание трех последовательных экранов*/
 }
 .Screens:nth-of-type(2) 
 {
-    /*background-color: darkseagreen;*/ /*отладочная моноколорная заливка*/
-    background-image: url(Images/Screen_2.gif); /*анимация достигается посредством гиф-файла в фоне*/
+    /*background-color: darkseagreen;*/ /*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г¬Г®Г­Г®ГЄГ®Г«Г®Г°Г­Г Гї Г§Г Г«ГЁГўГЄГ */
+    background-image: url(Images/Screen_2.gif); /*Г Г­ГЁГ¬Г Г¶ГЁГї Г¤Г®Г±ГІГЁГЈГ ГҐГІГ±Гї ГЇГ®Г±Г°ГҐГ¤Г±ГІГўГ®Г¬ ГЈГЁГґ-ГґГ Г©Г«Г  Гў ГґГ®Г­ГҐ*/
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -33,7 +33,7 @@ html, body /*Создание трех последовательных экранов*/
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: lightseagreen;*/ /*отладочная моноколорная заливка*/
+    /*background-color: lightseagreen;*/ /*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г¬Г®Г­Г®ГЄГ®Г«Г®Г°Г­Г Гї Г§Г Г«ГЁГўГЄГ */
     background-image: url(Images/Screen_3.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -41,14 +41,14 @@ html, body /*Создание трех последовательных экранов*/
 
 #menu_back
 {
-    /*background-color: red;*/ /*отладочная моноколорная заливка*/
+    /*background-color: red;*/ /*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г¬Г®Г­Г®ГЄГ®Г«Г®Г°Г­Г Гї Г§Г Г«ГЁГўГЄГ */
     display: flex;
     height: 5vw;
     width: 99vw;
 }
 .logo
 {
-    /*background-color: violet;*/ /*отладочная моноколорная заливка*/
+    /*background-color: violet;*/ /*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г¬Г®Г­Г®ГЄГ®Г«Г®Г°Г­Г Гї Г§Г Г«ГЁГўГЄГ */
     display: flex;
     font-size: 2vw;
     text-decoration: underline;
@@ -59,8 +59,8 @@ html, body /*Создание трех последовательных экранов*/
 }
 .menu {
     display: flex;
-    /*background-color: green;*/ /*отладочная моноколорная заливка*/
-    background-image: url(Images/Header.gif); /*анимация фона меню достигается за счет Гиф-файла в фоне*/
+    /*background-color: green;*/ /*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г¬Г®Г­Г®ГЄГ®Г«Г®Г°Г­Г Гї Г§Г Г«ГЁГўГЄГ */
+    background-image: url(Images/Header.gif); /*Г Г­ГЁГ¬Г Г¶ГЁГї ГґГ®Г­Г  Г¬ГҐГ­Гѕ Г¤Г®Г±ГІГЁГЈГ ГҐГІГ±Гї Г§Г  Г±Г·ГҐГІ ГѓГЁГґ-ГґГ Г©Г«Г  Гў ГґГ®Г­ГҐ*/
     background-position: bottom;
     background-size: 100% auto;
     display: flex;
@@ -85,8 +85,8 @@ html, body /*Создание трех последовательных экранов*/
     width: 80%;
     justify-content: center;
     align-items: center;
-    /*background-color: orange;*/ /*отладочная моноколорная заливка*/
-    /*opacity: 1;*/ /*тестовая прозрачность фонофого блока*/
+    /*background-color: orange;*/ /*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г¬Г®Г­Г®ГЄГ®Г«Г®Г°Г­Г Гї Г§Г Г«ГЁГўГЄГ */
+    /*opacity: 1;*/ /*ГІГҐГ±ГІГ®ГўГ Гї ГЇГ°Г®Г§Г°Г Г·Г­Г®Г±ГІГј ГґГ®Г­Г®ГґГ®ГЈГ® ГЎГ«Г®ГЄГ */
 }
 .text 
 {
@@ -103,7 +103,7 @@ html, body /*Создание трех последовательных экранов*/
 {
     text-align: center;
 }
-/*.text:nth-of-type(1) /* свойства каждого из текстовых блоков для моноколорной отладочной заливки */ /*
+/*.text:nth-of-type(1) /* Г±ГўГ®Г©Г±ГІГўГ  ГЄГ Г¦Г¤Г®ГЈГ® ГЁГ§ ГІГҐГЄГ±ГІГ®ГўГ»Гµ ГЎГ«Г®ГЄГ®Гў Г¤Г«Гї Г¬Г®Г­Г®ГЄГ®Г«Г®Г°Г­Г®Г© Г®ГІГ«Г Г¤Г®Г·Г­Г®Г© Г§Г Г«ГЁГўГЄГЁ */ /*
 {
     background-color: yellow; 
 }
@@ -114,15 +114,15 @@ html, body /*Создание трех последовательных экранов*/
 
 #gallery {
     display: flex;
-    /*background-color: orange;*/ /*отладочная моноколорная заливка*/
+    /*background-color: orange;*/ /*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г¬Г®Г­Г®ГЄГ®Г«Г®Г°Г­Г Гї Г§Г Г«ГЁГўГЄГ */
     width: 62vw;
     height: 34vw;
-    /*border: 2px solid black;*/ /*отладочная рамка для позиционирования блоков с фото*/
+    /*border: 2px solid black;*/ /*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г°Г Г¬ГЄГ  Г¤Г«Гї ГЇГ®Г§ГЁГ¶ГЁГ®Г­ГЁГ°Г®ГўГ Г­ГЁГї ГЎГ«Г®ГЄГ®Гў Г± ГґГ®ГІГ®*/
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-around;
 }
-.picture /*общие свойства блоков с фото*/
+.picture /*Г®ГЎГ№ГЁГҐ Г±ГўГ®Г©Г±ГІГўГ  ГЎГ«Г®ГЄГ®Гў Г± ГґГ®ГІГ®*/
 {
     display: flex;
     width: 20vw;
@@ -131,7 +131,7 @@ html, body /*Создание трех последовательных экранов*/
     background-size: 100% 100%;
     border: 2px solid black;
 }
-.picture:nth-of-type(1) /*индивидуальные свойства каждого из блоков с фото*/
+.picture:nth-of-type(1) /*ГЁГ­Г¤ГЁГўГЁГ¤ГіГ Г«ГјГ­Г»ГҐ Г±ГўГ®Г©Г±ГІГўГ  ГЄГ Г¦Г¤Г®ГЈГ® ГЁГ§ ГЎГ«Г®ГЄГ®Гў Г± ГґГ®ГІГ®*/
 {
     background-image: url(Images/Picture_1.jpg);
 }
@@ -155,7 +155,7 @@ html, body /*Создание трех последовательных экранов*/
 {
     background-image: url(Images/Picture_6.jpg)
 }
-#footer /*свойства футера*/
+#footer /*Г±ГўГ®Г©Г±ГІГўГ  ГґГіГІГҐГ°Г */
 {
     background-color: grey;
     display: flex;
@@ -164,38 +164,38 @@ html, body /*Создание трех последовательных экранов*/
     align-items: center;
     flex-direction: column;
 }
-#columns_back /*свойства фонового блока для блоков с "псевдоссылками"*/
+#columns_back /*Г±ГўГ®Г©Г±ГІГўГ  ГґГ®Г­Г®ГўГ®ГЈГ® ГЎГ«Г®ГЄГ  Г¤Г«Гї ГЎГ«Г®ГЄГ®Гў Г± "ГЇГ±ГҐГўГ¤Г®Г±Г±Г»Г«ГЄГ Г¬ГЁ"*/
 {
-    /*background-color: red;*/ /*отладочная моноколорная заливка*/
+    /*background-color: red;*/ /*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г¬Г®Г­Г®ГЄГ®Г«Г®Г°Г­Г Гї Г§Г Г«ГЁГўГЄГ */
     width: 81vw;
     height: 20vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.columns /*свойства фоновых блоков для блоков с "псевдоссылками"*/
+.columns /*Г±ГўГ®Г©Г±ГІГўГ  ГґГ®Г­Г®ГўГ»Гµ ГЎГ«Г®ГЄГ®Гў Г¤Г«Гї ГЎГ«Г®ГЄГ®Гў Г± "ГЇГ±ГҐГўГ¤Г®Г±Г±Г»Г«ГЄГ Г¬ГЁ"*/
 {
-    /*background-color: green;*/ /*отладочная моноколорная заливка*/
-    /*border: 1px solid black;*/ /*отладочная рамка для позиционирования блоков с "псевдоссылками*/
+    /*background-color: green;*/ /*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г¬Г®Г­Г®ГЄГ®Г«Г®Г°Г­Г Гї Г§Г Г«ГЁГўГЄГ */
+    /*border: 1px solid black;*/ /*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г°Г Г¬ГЄГ  Г¤Г«Гї ГЇГ®Г§ГЁГ¶ГЁГ®Г­ГЁГ°Г®ГўГ Г­ГЁГї ГЎГ«Г®ГЄГ®Гў Г± "ГЇГ±ГҐГўГ¤Г®Г±Г±Г»Г«ГЄГ Г¬ГЁ*/
     margin: 1vw 1vw;
     display: flex;
     width: 26vw;
     flex-direction: column;
     justify-content: stretch;
 }
-.columns_rows /*свойства блоков с "псевдоссылками"*/
+.columns_rows /*Г±ГўГ®Г©Г±ГІГўГ  ГЎГ«Г®ГЄГ®Гў Г± "ГЇГ±ГҐГўГ¤Г®Г±Г±Г»Г«ГЄГ Г¬ГЁ"*/
 {
     display: flex;
-    /*background-color: green;*/ /*отладочная моноколорная заливка*/
+    /*background-color: green;*/ /*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г¬Г®Г­Г®ГЄГ®Г«Г®Г°Г­Г Гї Г§Г Г«ГЁГўГЄГ */
     font-size: 2vw;
     text-decoration: underline;
     color: white;
     justify-content: center;
 }
-#footer_logo_back  /*свойства фонового блока для блока с закрывающим лого*/
+#footer_logo_back  /*Г±ГўГ®Г©Г±ГІГўГ  ГґГ®Г­Г®ГўГ®ГЈГ® ГЎГ«Г®ГЄГ  Г¤Г«Гї ГЎГ«Г®ГЄГ  Г± Г§Г ГЄГ°Г»ГўГ ГѕГ№ГЁГ¬ Г«Г®ГЈГ®*/
 {
     display: flex;
-    /*background-color: brown;*//*отладочная моноколорная заливка*/
+    /*background-color: brown;*//*Г®ГІГ«Г Г¤Г®Г·Г­Г Гї Г¬Г®Г­Г®ГЄГ®Г«Г®Г°Г­Г Гї Г§Г Г«ГЁГўГЄГ */
     width: 98vw;
     height: 10vw;
     justify-content: right;
