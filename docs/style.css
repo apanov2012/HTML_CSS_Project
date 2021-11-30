@@ -13,7 +13,7 @@ html, body /* making three screens */
 {
     display: flex;
     /*background-color: brown;*/ /* debugging background fill */
-    background-image: url(Screen_1.jpg);
+    background-image: url(Images/Screen_1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     flex-direction: row;
@@ -21,7 +21,7 @@ html, body /* making three screens */
 .Screens:nth-of-type(2) 
 {
     /*background-color: darkseagreen;*/ /* debugging background fill */
-    background-image: url(Screen_2.gif); /* background animation use gif-file */
+    background-image: url(Images/Screen_2.gif); /* background animation use gif-file */
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -34,7 +34,7 @@ html, body /* making three screens */
     justify-content: center;
     align-items: center;
     /*background-color: lightseagreen;*/ /* debugging background fill */
-    background-image: url(Screen_3.jpg);
+    background-image: url(Images/Screen_3.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -60,7 +60,7 @@ html, body /* making three screens */
 .menu {
     display: flex;
     /*background-color: green;*/ /* debugging background fill */
-    background-image: url(Header.gif); /* background animation use gif-file*/
+    background-image: url(Images/Header.gif); /* background animation use gif-file*/
     background-position: bottom;
     background-size: 100% auto;
     display: flex;
@@ -86,7 +86,6 @@ html, body /* making three screens */
     justify-content: center;
     align-items: center;
     /*background-color: orange;*/ /* debugging background fill */
-    /*opacity: 1;*/ /*тестовая прозрачность фонофого блока*/
 }
 .text 
 {
@@ -133,27 +132,27 @@ html, body /* making three screens */
 }
 .picture:nth-of-type(1) /* picture block properties */
 {
-    background-image: url(Picture_1.jpg);
+    background-image: url(Images/Picture_1.jpg);
 }
 .picture:nth-of-type(2)
 {
-    background-image: url(Picture_2.jpg);
+    background-image: url(Images/Picture_2.jpg);
 }
 .picture:nth-of-type(3)
 {
-    background-image: url(Picture_3.jpg);
+    background-image: url(Images/Picture_3.jpg);
 }
 .picture:nth-of-type(4)
 {
-    background-image: url(Picture_4.jpg)
+    background-image: url(Images/Picture_4.jpg)
 }
 .picture:nth-of-type(5)
 {
-    background-image: url(Picture_5.jpg)
+    background-image: url(Images/Picture_5.jpg)
 }
 .picture:nth-of-type(6)
 {
-    background-image: url(Picture_6.jpg)
+    background-image: url(Images/Picture_6.jpg)
 }
 #footer /* footer properties */
 {
