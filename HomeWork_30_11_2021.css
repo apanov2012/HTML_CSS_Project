@@ -1,0 +1,203 @@
+html, body /*Создание трех последовательных экранов*/
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Screens /*Общие свойства экранов*/
+{
+    height: 100%;
+}
+.Screens:nth-of-type(1) /*Первый экран с меню и титульной картинкой*/
+{
+    display: flex;
+    /*background-color: brown;*/ /*отладочная моноколорная заливка*/
+    background-image: url(Images/Screen_1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    flex-direction: row;
+}
+.Screens:nth-of-type(2) 
+{
+    /*background-color: darkseagreen;*/ /*отладочная моноколорная заливка*/
+    background-image: url(Images/Screen_2.gif); /*анимация достигается посредством гиф-файла в фоне*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Screens:nth-of-type(3) 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: lightseagreen;*/ /*отладочная моноколорная заливка*/
+    background-image: url(Images/Screen_3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#menu_back
+{
+    /*background-color: red;*/ /*отладочная моноколорная заливка*/
+    display: flex;
+    height: 5vw;
+    width: 99vw;
+}
+.logo
+{
+    /*background-color: violet;*/ /*отладочная моноколорная заливка*/
+    display: flex;
+    font-size: 2vw;
+    text-decoration: underline;
+    border: 3px solid white;
+    height: 5vw;
+    width: 9vw;
+    text-align: center;
+}
+.menu {
+    display: flex;
+    /*background-color: green;*/ /*отладочная моноколорная заливка*/
+    background-image: url(Images/Header.gif); /*анимация фона меню достигается за счет Гиф-файла в фоне*/
+    background-position: bottom;
+    background-size: 100% auto;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+.menu_button
+{
+    display: flex;
+    font-size: 1.5vw;
+    width: 9vw;
+    margin: 25px 15px 5px 15px;
+    border: 2px solid black; 
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+#big_frame 
+{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    /*background-color: orange;*/ /*отладочная моноколорная заливка*/
+    /*opacity: 1;*/ /*тестовая прозрачность фонофого блока*/
+}
+.text 
+{
+    display: flex;
+    width: 50vw;
+    height: 40vh;
+    margin: 50px 30px;
+    flex-direction: column;
+    padding: 15px 20px;
+    border: 2px solid white;
+    color: white;
+}
+.brake_line
+{
+    text-align: center;
+}
+/*.text:nth-of-type(1) /* свойства каждого из текстовых блоков для моноколорной отладочной заливки */ /*
+{
+    background-color: yellow; 
+}
+.text:nth-of-type(2)
+{
+    background-color: greenyellow;
+}*/
+
+#gallery {
+    display: flex;
+    /*background-color: orange;*/ /*отладочная моноколорная заливка*/
+    width: 62vw;
+    height: 34vw;
+    /*border: 2px solid black;*/ /*отладочная рамка для позиционирования блоков с фото*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.picture /*общие свойства блоков с фото*/
+{
+    display: flex;
+    width: 20vw;
+    height: 17vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid black;
+}
+.picture:nth-of-type(1) /*индивидуальные свойства каждого из блоков с фото*/
+{
+    background-image: url(Images/Picture_1.jpg);
+}
+.picture:nth-of-type(2)
+{
+    background-image: url(Images/Picture_2.jpg);
+}
+.picture:nth-of-type(3)
+{
+    background-image: url(Images/Picture_3.jpg);
+}
+.picture:nth-of-type(4)
+{
+    background-image: url(Images/Picture_4.jpg)
+}
+.picture:nth-of-type(5)
+{
+    background-image: url(Images/Picture_5.jpg)
+}
+.picture:nth-of-type(6)
+{
+    background-image: url(Images/Picture_6.jpg)
+}
+#footer /*свойства футера*/
+{
+    background-color: grey;
+    display: flex;
+    height: 30vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#columns_back /*свойства фонового блока для блоков с "псевдоссылками"*/
+{
+    /*background-color: red;*/ /*отладочная моноколорная заливка*/
+    width: 81vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.columns /*свойства фоновых блоков для блоков с "псевдоссылками"*/
+{
+    /*background-color: green;*/ /*отладочная моноколорная заливка*/
+    /*border: 1px solid black;*/ /*отладочная рамка для позиционирования блоков с "псевдоссылками*/
+    margin: 1vw 1vw;
+    display: flex;
+    width: 26vw;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.columns_rows /*свойства блоков с "псевдоссылками"*/
+{
+    display: flex;
+    /*background-color: green;*/ /*отладочная моноколорная заливка*/
+    font-size: 2vw;
+    text-decoration: underline;
+    color: white;
+    justify-content: center;
+}
+#footer_logo_back  /*свойства фонового блока для блока с закрывающим лого*/
+{
+    display: flex;
+    /*background-color: brown;*//*отладочная моноколорная заливка*/
+    width: 98vw;
+    height: 10vw;
+    justify-content: right;
+    align-items: flex-end;
+}
