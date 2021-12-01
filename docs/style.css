@@ -1,0 +1,260 @@
+﻿html, body /* making three screens */
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Screens /* screens properties */
+{
+    height: 100%;
+}
+.Screens:nth-of-type(1) /* first screen with menu-block and title picture */
+{
+    display: flex;
+    /*background-color: brown;*/ /* debugging background fill */
+    background-image: url(Images/Screen_1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    flex-direction: row;
+}
+.Screens:nth-of-type(2) 
+{
+    /*background-color: darkseagreen;*/ /* debugging background fill */
+    background-image: url(Images/Screen_2.gif); /* background animation use gif-file */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Screens:nth-of-type(3) 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: lightseagreen;*/ /* debugging background fill */
+    background-image: url(Images/Screen_3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#menu_back
+{
+    /*background-color: red;*/ /* debugging background fill */
+    display: flex;
+    height: 5vw;
+    width: 110vw;
+    position: relative;
+    overflow: visible;
+}
+.logo
+{
+    /*background-color: violet;*/ /* debugging background fill */
+    display: flex;
+    font-size: 2vw;
+    text-decoration: underline;
+    border: 3px solid white;
+    height: 5vw;
+    width: 9vw;
+    text-align: center;
+}
+.menu 
+{
+    display: flex;
+    /*background-color: green;*/ /* debugging background fill */
+    background-image: url(Images/Header.gif); /* background animation use gif-file*/
+    background-position: bottom;
+    background-size: 100% auto; 
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: right;
+    overflow: visible;
+}
+.menu_button
+{
+    display: flex;
+    font-size: 1.5vw;
+    width: 9vw;
+    height: 3vw;
+    margin: 23px 15px 5px 15px;
+    border: 2px solid black; 
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+.menu_point  /*always visible menu button */
+{
+    display: flex;
+    width: 9vw;
+    height: 3vw;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown_menu /*background block for unvisible under-menu buttons*/
+{
+    display: flex;
+    width: 9vw;
+    height: 21vw;
+    opacity: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    /*background-color: red;*/ /* debugging background fill */
+}
+.dropdown_menu:hover /*making under-menu buttons visible*/
+{
+    opacity: 1;
+    transition: 0.8s;
+    align-items: center;
+}
+
+.dropdown_point /*unvisible under-menu buttons*/
+{
+    display: flex;
+    background-color: orange;
+    width: 9vw;
+    height: 4vw;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 3px 0;
+}
+.dropdown_point:hover
+{
+    border: 3px solid black;
+    width: 10vw;
+    height: 5vw;
+    transition: 0.3s;
+}
+
+#big_frame /*background block for two text blocks*/
+{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    /*background-color: orange;*/ /* debugging background fill */
+    /*opacity: 1;*/ /*тестовая прозрачность фонофого блока*/
+}
+.text  /*text blocks*/
+{
+    display: flex;
+    width: 50vw;
+    height: 40vh;
+    margin: 50px 30px;
+    flex-direction: column;
+    padding: 15px 20px;
+    border: 2px solid white;
+    color: white;
+}
+.brake_line /*line for braking text input text blocks*/
+{
+    text-align: center;
+}
+/*.text:nth-of-type(1) /* text-block properties for debugging */ /*
+{
+    background-color: yellow; 
+}
+.text:nth-of-type(2)
+{
+    background-color: greenyellow;
+}*/
+
+#gallery /*background block for pictures*/
+{
+    display: flex;
+    /*background-color: orange;*/ /* debugging background fill */
+    width: 62vw;
+    height: 34vw;
+    /*border: 2px solid black;*/ /* debuggind frame for picture blocks */
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.picture /* pictures blocks properties */
+{
+    display: flex;
+    width: 20vw;
+    height: 17vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid black;
+}
+.picture:nth-of-type(1) /* picture block properties */
+{
+    background-image: url(Images/Picture_1.jpg);
+}
+.picture:nth-of-type(2)
+{
+    background-image: url(Images/Picture_2.jpg);
+}
+.picture:nth-of-type(3)
+{
+    background-image: url(Images/Picture_3.jpg);
+}
+.picture:nth-of-type(4)
+{
+    background-image: url(Images/Picture_4.jpg)
+}
+.picture:nth-of-type(5)
+{
+    background-image: url(Images/Picture_5.jpg)
+}
+.picture:nth-of-type(6)
+{
+    background-image: url(Images/Picture_6.jpg)
+}
+#footer /* footer properties */
+{
+    background-color: grey;
+    display: flex;
+    height: 30vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#columns_back /* background block for blocks with "link"-blocks*/
+{
+    /*background-color: red;*/ /* debugging background fill */
+    width: 81vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.columns /* properties of block with "link"-blocks */
+{
+    /*background-color: green;*/ /* debugging background fill */
+    /*border: 1px solid black;*/ /* debuggind frame for "link"-blocks */
+    margin: 1vw 1vw;
+    display: flex;
+    width: 26vw;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.columns_rows /* "link"-blocks properties */
+{
+    display: flex;
+    /*background-color: green;*/ /* debugging background fill */
+    font-size: 2vw;
+    text-decoration: underline;
+    color: white;
+    justify-content: center;
+}
+#footer_logo_back  /* properties of background block of footer-logo block*/
+{
+    display: flex;
+    /*background-color: brown;*//* debugging background fill */
+    width: 98vw;
+    height: 10vw;
+    justify-content: right;
+    align-items: flex-end;
+}
