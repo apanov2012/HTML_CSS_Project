@@ -141,7 +141,7 @@
     width: 80%;
     justify-content: center;
     align-items: center;
-    background-color: orange; /* debugging background fill */
+    /*background-color: orange;*/ /* debugging background fill */
     /*opacity: 1;*/ /*тестовая прозрачность фонофого блока*/
 }
 .text  /*text blocks*/
